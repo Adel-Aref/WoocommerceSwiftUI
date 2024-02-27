@@ -28,6 +28,13 @@
 		FEA9ECAB2B8E093D00048302 /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FEA9ECA82B8E07F700048302 /* Production.xcconfig */; };
 		FEA9ECB32B8E0BDA00048302 /* Services.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEA9ECB22B8E0BDA00048302 /* Services.plist */; };
 		FEA9ECB52B8E0C4400048302 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9ECB42B8E0C4400048302 /* Environment.swift */; };
+		FEA9ECC02B8E23DB00048302 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9ECBF2B8E23DB00048302 /* Typography.swift */; };
+		FEA9ECC92B8E24FB00048302 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEA9ECC52B8E24FB00048302 /* Poppins-Light.ttf */; };
+		FEA9ECCA2B8E24FB00048302 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEA9ECC62B8E24FB00048302 /* Poppins-Regular.ttf */; };
+		FEA9ECCB2B8E24FB00048302 /* Poppins-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEA9ECC72B8E24FB00048302 /* Poppins-Semibold.ttf */; };
+		FEA9ECCC2B8E24FB00048302 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEA9ECC82B8E24FB00048302 /* Poppins-Medium.ttf */; };
+		FEA9ECCE2B8E252F00048302 /* Almarai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEA9ECCD2B8E252F00048302 /* Almarai-Bold.ttf */; };
+		FEA9ECD12B8E257200048302 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9ECD02B8E257200048302 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +79,13 @@
 		FEA9ECA92B8E093600048302 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		FEA9ECB22B8E0BDA00048302 /* Services.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Services.plist; sourceTree = "<group>"; };
 		FEA9ECB42B8E0C4400048302 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		FEA9ECBF2B8E23DB00048302 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		FEA9ECC52B8E24FB00048302 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		FEA9ECC62B8E24FB00048302 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		FEA9ECC72B8E24FB00048302 /* Poppins-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Semibold.ttf"; sourceTree = "<group>"; };
+		FEA9ECC82B8E24FB00048302 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		FEA9ECCD2B8E252F00048302 /* Almarai-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Bold.ttf"; sourceTree = "<group>"; };
+		FEA9ECD02B8E257200048302 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +136,7 @@
 		FEA9EC622B8DF7FE00048302 /* woocommerceSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FEA9ECC12B8E24C000048302 /* Resources */,
 				FEA9EC922B8DF88400048302 /* APIService */,
 				FEA9EC9B2B8DFCEE00048302 /* Repository */,
 				FEA9ECA52B8E075B00048302 /* XConfig */,
@@ -249,6 +264,36 @@
 			path = Presentation;
 			sourceTree = "<group>";
 		};
+		FEA9ECBE2B8E23C100048302 /* DesingSystem */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9ECBF2B8E23DB00048302 /* Typography.swift */,
+				FEA9ECD02B8E257200048302 /* Colors.swift */,
+			);
+			path = DesingSystem;
+			sourceTree = "<group>";
+		};
+		FEA9ECC12B8E24C000048302 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9ECC42B8E24E600048302 /* Fonts */,
+				FEA9ECBE2B8E23C100048302 /* DesingSystem */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FEA9ECC42B8E24E600048302 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9ECCD2B8E252F00048302 /* Almarai-Bold.ttf */,
+				FEA9ECC52B8E24FB00048302 /* Poppins-Light.ttf */,
+				FEA9ECC82B8E24FB00048302 /* Poppins-Medium.ttf */,
+				FEA9ECC62B8E24FB00048302 /* Poppins-Regular.ttf */,
+				FEA9ECC72B8E24FB00048302 /* Poppins-Semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -353,12 +398,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA9ECC92B8E24FB00048302 /* Poppins-Light.ttf in Resources */,
 				FEA9ECB32B8E0BDA00048302 /* Services.plist in Resources */,
 				FEA9ECAA2B8E093B00048302 /* Staging.xcconfig in Resources */,
 				FEA9ECAB2B8E093D00048302 /* Production.xcconfig in Resources */,
 				FEA9ECA72B8E079F00048302 /* Development.xcconfig in Resources */,
+				FEA9ECCE2B8E252F00048302 /* Almarai-Bold.ttf in Resources */,
 				FEA9EC6B2B8DF7FF00048302 /* Preview Assets.xcassets in Resources */,
 				FEA9EC682B8DF7FF00048302 /* Assets.xcassets in Resources */,
+				FEA9ECCB2B8E24FB00048302 /* Poppins-Semibold.ttf in Resources */,
+				FEA9ECCA2B8E24FB00048302 /* Poppins-Regular.ttf in Resources */,
+				FEA9ECCC2B8E24FB00048302 /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +436,7 @@
 				FEA9EC9A2B8DFB7900048302 /* LoginClient.swift in Sources */,
 				FEA9ECB52B8E0C4400048302 /* Environment.swift in Sources */,
 				FEA9EC982B8DFA6300048302 /* RequestError.swift in Sources */,
+				FEA9ECD12B8E257200048302 /* Colors.swift in Sources */,
 				FEA9EC6D2B8DF7FF00048302 /* Persistence.swift in Sources */,
 				FEA9EC662B8DF7FE00048302 /* ContentView.swift in Sources */,
 				FEA9EC942B8DF8C900048302 /* Router.swift in Sources */,
@@ -394,6 +445,7 @@
 				FEA9EC642B8DF7FE00048302 /* woocommerceSwiftUIApp.swift in Sources */,
 				FEA9EC962B8DF9A400048302 /* APIClient.swift in Sources */,
 				FEA9EC9D2B8DFD2300048302 /* Repository.swift in Sources */,
+				FEA9ECC02B8E23DB00048302 /* Typography.swift in Sources */,
 				FEA9ECA22B8DFDD300048302 /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
