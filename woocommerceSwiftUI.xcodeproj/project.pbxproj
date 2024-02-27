@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10026EF32B8E2253005BB0D5 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10026EF22B8E2253005BB0D5 /* MyProfileView.swift */; };
+		10026EF72B8E22CF005BB0D5 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10026EF62B8E22CF005BB0D5 /* ProfileViewModel.swift */; };
+		10026EF92B8E238C005BB0D5 /* ProfileViewModelContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10026EF82B8E238C005BB0D5 /* ProfileViewModelContract.swift */; };
 		FEA9EC642B8DF7FE00048302 /* woocommerceSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9EC632B8DF7FE00048302 /* woocommerceSwiftUIApp.swift */; };
 		FEA9EC662B8DF7FE00048302 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9EC652B8DF7FE00048302 /* ContentView.swift */; };
 		FEA9EC682B8DF7FF00048302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA9EC672B8DF7FF00048302 /* Assets.xcassets */; };
@@ -48,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10026EF22B8E2253005BB0D5 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
+		10026EF62B8E22CF005BB0D5 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		10026EF82B8E238C005BB0D5 /* ProfileViewModelContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModelContract.swift; sourceTree = "<group>"; };
 		FEA9EC602B8DF7FE00048302 /* woocommerceSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woocommerceSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA9EC632B8DF7FE00048302 /* woocommerceSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = woocommerceSwiftUIApp.swift; sourceTree = "<group>"; };
 		FEA9EC652B8DF7FE00048302 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +105,119 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10026EE42B8E2092005BB0D5 /* 04-Profile */ = {
+			isa = PBXGroup;
+			children = (
+				10026EE72B8E20AF005BB0D5 /* Repository */,
+				10026EE62B8E20A6005BB0D5 /* Domain */,
+				10026EE52B8E20A1005BB0D5 /* Presentation */,
+			);
+			path = "04-Profile";
+			sourceTree = "<group>";
+		};
+		10026EE52B8E20A1005BB0D5 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				10026EF12B8E2215005BB0D5 /* ViewModel */,
+				10026EF02B8E220F005BB0D5 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		10026EE62B8E20A6005BB0D5 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				10026EE82B8E20BC005BB0D5 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		10026EE72B8E20AF005BB0D5 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		10026EE82B8E20BC005BB0D5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		10026EE92B8E20D7005BB0D5 /* 03-Cart */ = {
+			isa = PBXGroup;
+			children = (
+				10026EEC2B8E20F8005BB0D5 /* Repository */,
+				10026EEB2B8E20F2005BB0D5 /* Domain */,
+				10026EEA2B8E20E9005BB0D5 /* Presentation */,
+			);
+			path = "03-Cart";
+			sourceTree = "<group>";
+		};
+		10026EEA2B8E20E9005BB0D5 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				10026EEF2B8E2200005BB0D5 /* ViewModel */,
+				10026EEE2B8E21FB005BB0D5 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		10026EEB2B8E20F2005BB0D5 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				10026EED2B8E2102005BB0D5 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		10026EEC2B8E20F8005BB0D5 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		10026EED2B8E2102005BB0D5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		10026EEE2B8E21FB005BB0D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10026EEF2B8E2200005BB0D5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10026EF02B8E220F005BB0D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10026EF22B8E2253005BB0D5 /* MyProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10026EF12B8E2215005BB0D5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				10026EF62B8E22CF005BB0D5 /* ProfileViewModel.swift */,
+				10026EF82B8E238C005BB0D5 /* ProfileViewModelContract.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		FEA9EC572B8DF7FE00048302 = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +316,8 @@
 			children = (
 				FEA9ECB72B8E0ED300048302 /* 01-Splash */,
 				FEA9ECB82B8E0F8300048302 /* 02-Login */,
+				10026EE92B8E20D7005BB0D5 /* 03-Cart */,
+				10026EE42B8E2092005BB0D5 /* 04-Profile */,
 			);
 			path = Journeys;
 			sourceTree = "<group>";
@@ -386,9 +507,12 @@
 				FEA9EC9A2B8DFB7900048302 /* LoginClient.swift in Sources */,
 				FEA9ECB52B8E0C4400048302 /* Environment.swift in Sources */,
 				FEA9EC982B8DFA6300048302 /* RequestError.swift in Sources */,
+				10026EF32B8E2253005BB0D5 /* MyProfileView.swift in Sources */,
 				FEA9EC6D2B8DF7FF00048302 /* Persistence.swift in Sources */,
 				FEA9EC662B8DF7FE00048302 /* ContentView.swift in Sources */,
+				10026EF72B8E22CF005BB0D5 /* ProfileViewModel.swift in Sources */,
 				FEA9EC942B8DF8C900048302 /* Router.swift in Sources */,
+				10026EF92B8E238C005BB0D5 /* ProfileViewModelContract.swift in Sources */,
 				FEA9EC702B8DF7FF00048302 /* woocommerceSwiftUI.xcdatamodeld in Sources */,
 				FEA9ECA42B8DFE9900048302 /* LoginRepository.swift in Sources */,
 				FEA9EC642B8DF7FE00048302 /* woocommerceSwiftUIApp.swift in Sources */,
