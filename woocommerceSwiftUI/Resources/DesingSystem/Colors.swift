@@ -7,6 +7,10 @@
 
 import UIKit
 
+struct DesignSystem {
+    
+}
+
 extension DesignSystem {
     
     enum Colors: String {
