@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEA9EC642B8DF7FE00048302 /* woocommerceSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9EC632B8DF7FE00048302 /* woocommerceSwiftUIApp.swift */; };
+		FEA9EC662B8DF7FE00048302 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9EC652B8DF7FE00048302 /* ContentView.swift */; };
+		FEA9EC682B8DF7FF00048302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA9EC672B8DF7FF00048302 /* Assets.xcassets */; };
+		FEA9EC6B2B8DF7FF00048302 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA9EC6A2B8DF7FF00048302 /* Preview Assets.xcassets */; };
+		FEA9EC6D2B8DF7FF00048302 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9EC6C2B8DF7FF00048302 /* Persistence.swift */; };
+		FEA9EC702B8DF7FF00048302 /* woocommerceSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEA9EC6E2B8DF7FF00048302 /* woocommerceSwiftUI.xcdatamodeld */; };
+		FEA9EC7A2B8DF7FF00048302 /* woocommerceSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9EC792B8DF7FF00048302 /* woocommerceSwiftUITests.swift */; };
+		FEA9EC842B8DF7FF00048302 /* woocommerceSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9EC832B8DF7FF00048302 /* woocommerceSwiftUIUITests.swift */; };
+		FEA9EC862B8DF7FF00048302 /* woocommerceSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9EC852B8DF7FF00048302 /* woocommerceSwiftUIUITestsLaunchTests.swift */; };
+		FEA9EC942B8DF8C900048302 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9EC932B8DF8C900048302 /* Router.swift */; };
+		FEA9EC962B8DF9A400048302 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9EC952B8DF9A400048302 /* APIClient.swift */; };
+		FEA9EC982B8DFA6300048302 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9EC972B8DFA6300048302 /* RequestError.swift */; };
+		FEA9EC9A2B8DFB7900048302 /* LoginClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9EC992B8DFB7900048302 /* LoginClient.swift */; };
+		FEA9EC9D2B8DFD2300048302 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9EC9C2B8DFD2300048302 /* Repository.swift */; };
+		FEA9ECA22B8DFDD300048302 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9ECA12B8DFDD300048302 /* UserModel.swift */; };
+		FEA9ECA42B8DFE9900048302 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9ECA32B8DFE9900048302 /* LoginRepository.swift */; };
+		FEA9ECA72B8E079F00048302 /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FEA9ECA62B8E079F00048302 /* Development.xcconfig */; };
+		FEA9ECAA2B8E093B00048302 /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FEA9ECA92B8E093600048302 /* Staging.xcconfig */; };
+		FEA9ECAB2B8E093D00048302 /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FEA9ECA82B8E07F700048302 /* Production.xcconfig */; };
+		FEA9ECB32B8E0BDA00048302 /* Services.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEA9ECB22B8E0BDA00048302 /* Services.plist */; };
+		FEA9ECB52B8E0C4400048302 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9ECB42B8E0C4400048302 /* Environment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEA9EC762B8DF7FF00048302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA9EC582B8DF7FE00048302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA9EC5F2B8DF7FE00048302;
+			remoteInfo = woocommerceSwiftUI;
+		};
+		FEA9EC802B8DF7FF00048302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA9EC582B8DF7FE00048302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA9EC5F2B8DF7FE00048302;
+			remoteInfo = woocommerceSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEA9EC602B8DF7FE00048302 /* woocommerceSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woocommerceSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA9EC632B8DF7FE00048302 /* woocommerceSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = woocommerceSwiftUIApp.swift; sourceTree = "<group>"; };
+		FEA9EC652B8DF7FE00048302 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FEA9EC672B8DF7FF00048302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEA9EC6A2B8DF7FF00048302 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEA9EC6C2B8DF7FF00048302 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FEA9EC6F2B8DF7FF00048302 /* woocommerceSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = woocommerceSwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		FEA9EC752B8DF7FF00048302 /* woocommerceSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = woocommerceSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA9EC792B8DF7FF00048302 /* woocommerceSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = woocommerceSwiftUITests.swift; sourceTree = "<group>"; };
+		FEA9EC7F2B8DF7FF00048302 /* woocommerceSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = woocommerceSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA9EC832B8DF7FF00048302 /* woocommerceSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = woocommerceSwiftUIUITests.swift; sourceTree = "<group>"; };
+		FEA9EC852B8DF7FF00048302 /* woocommerceSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = woocommerceSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEA9EC932B8DF8C900048302 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		FEA9EC952B8DF9A400048302 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		FEA9EC972B8DFA6300048302 /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		FEA9EC992B8DFB7900048302 /* LoginClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginClient.swift; sourceTree = "<group>"; };
+		FEA9EC9C2B8DFD2300048302 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		FEA9ECA12B8DFDD300048302 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		FEA9ECA32B8DFE9900048302 /* LoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		FEA9ECA62B8E079F00048302 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		FEA9ECA82B8E07F700048302 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		FEA9ECA92B8E093600048302 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		FEA9ECB22B8E0BDA00048302 /* Services.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Services.plist; sourceTree = "<group>"; };
+		FEA9ECB42B8E0C4400048302 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA9EC5D2B8DF7FE00048302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA9EC722B8DF7FF00048302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA9EC7C2B8DF7FF00048302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEA9EC572B8DF7FE00048302 = {
+			isa = PBXGroup;
+			children = (
+				FEA9EC622B8DF7FE00048302 /* woocommerceSwiftUI */,
+				FEA9EC782B8DF7FF00048302 /* woocommerceSwiftUITests */,
+				FEA9EC822B8DF7FF00048302 /* woocommerceSwiftUIUITests */,
+				FEA9EC612B8DF7FE00048302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA9EC612B8DF7FE00048302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9EC602B8DF7FE00048302 /* woocommerceSwiftUI.app */,
+				FEA9EC752B8DF7FF00048302 /* woocommerceSwiftUITests.xctest */,
+				FEA9EC7F2B8DF7FF00048302 /* woocommerceSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA9EC622B8DF7FE00048302 /* woocommerceSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9EC922B8DF88400048302 /* APIService */,
+				FEA9EC9B2B8DFCEE00048302 /* Repository */,
+				FEA9ECA52B8E075B00048302 /* XConfig */,
+				FEA9ECB62B8E0E8300048302 /* Journeys */,
+				FEA9EC632B8DF7FE00048302 /* woocommerceSwiftUIApp.swift */,
+				FEA9EC652B8DF7FE00048302 /* ContentView.swift */,
+				FEA9EC672B8DF7FF00048302 /* Assets.xcassets */,
+				FEA9EC6C2B8DF7FF00048302 /* Persistence.swift */,
+				FEA9EC6E2B8DF7FF00048302 /* woocommerceSwiftUI.xcdatamodeld */,
+				FEA9EC692B8DF7FF00048302 /* Preview Content */,
+			);
+			path = woocommerceSwiftUI;
+			sourceTree = "<group>";
+		};
+		FEA9EC692B8DF7FF00048302 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9EC6A2B8DF7FF00048302 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEA9EC782B8DF7FF00048302 /* woocommerceSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9EC792B8DF7FF00048302 /* woocommerceSwiftUITests.swift */,
+			);
+			path = woocommerceSwiftUITests;
+			sourceTree = "<group>";
+		};
+		FEA9EC822B8DF7FF00048302 /* woocommerceSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9EC832B8DF7FF00048302 /* woocommerceSwiftUIUITests.swift */,
+				FEA9EC852B8DF7FF00048302 /* woocommerceSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = woocommerceSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		FEA9EC922B8DF88400048302 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9EC932B8DF8C900048302 /* Router.swift */,
+				FEA9EC952B8DF9A400048302 /* APIClient.swift */,
+				FEA9EC972B8DFA6300048302 /* RequestError.swift */,
+				FEA9EC992B8DFB7900048302 /* LoginClient.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		FEA9EC9B2B8DFCEE00048302 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9EC9C2B8DFD2300048302 /* Repository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		FEA9ECA52B8E075B00048302 /* XConfig */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9ECB42B8E0C4400048302 /* Environment.swift */,
+				FEA9ECB22B8E0BDA00048302 /* Services.plist */,
+				FEA9ECA62B8E079F00048302 /* Development.xcconfig */,
+				FEA9ECA82B8E07F700048302 /* Production.xcconfig */,
+				FEA9ECA92B8E093600048302 /* Staging.xcconfig */,
+			);
+			path = XConfig;
+			sourceTree = "<group>";
+		};
+		FEA9ECB62B8E0E8300048302 /* Journeys */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9ECB72B8E0ED300048302 /* 01-Splash */,
+				FEA9ECB82B8E0F8300048302 /* 02-Login */,
+			);
+			path = Journeys;
+			sourceTree = "<group>";
+		};
+		FEA9ECB72B8E0ED300048302 /* 01-Splash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "01-Splash";
+			sourceTree = "<group>";
+		};
+		FEA9ECB82B8E0F8300048302 /* 02-Login */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9ECBD2B8E134500048302 /* Presentation */,
+				FEA9ECBA2B8E127200048302 /* Domain */,
+				FEA9ECB92B8E11C200048302 /* Repository */,
+			);
+			path = "02-Login";
+			sourceTree = "<group>";
+		};
+		FEA9ECB92B8E11C200048302 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9ECA32B8DFE9900048302 /* LoginRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		FEA9ECBA2B8E127200048302 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9ECBB2B8E128B00048302 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FEA9ECBB2B8E128B00048302 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9ECA12B8DFDD300048302 /* UserModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		FEA9ECBD2B8E134500048302 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA9EC5F2B8DF7FE00048302 /* woocommerceSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA9EC892B8DF7FF00048302 /* Build configuration list for PBXNativeTarget "woocommerceSwiftUI" */;
+			buildPhases = (
+				FEA9EC5C2B8DF7FE00048302 /* Sources */,
+				FEA9EC5D2B8DF7FE00048302 /* Frameworks */,
+				FEA9EC5E2B8DF7FE00048302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = woocommerceSwiftUI;
+			productName = woocommerceSwiftUI;
+			productReference = FEA9EC602B8DF7FE00048302 /* woocommerceSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEA9EC742B8DF7FF00048302 /* woocommerceSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA9EC8C2B8DF7FF00048302 /* Build configuration list for PBXNativeTarget "woocommerceSwiftUITests" */;
+			buildPhases = (
+				FEA9EC712B8DF7FF00048302 /* Sources */,
+				FEA9EC722B8DF7FF00048302 /* Frameworks */,
+				FEA9EC732B8DF7FF00048302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA9EC772B8DF7FF00048302 /* PBXTargetDependency */,
+			);
+			name = woocommerceSwiftUITests;
+			productName = woocommerceSwiftUITests;
+			productReference = FEA9EC752B8DF7FF00048302 /* woocommerceSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEA9EC7E2B8DF7FF00048302 /* woocommerceSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA9EC8F2B8DF7FF00048302 /* Build configuration list for PBXNativeTarget "woocommerceSwiftUIUITests" */;
+			buildPhases = (
+				FEA9EC7B2B8DF7FF00048302 /* Sources */,
+				FEA9EC7C2B8DF7FF00048302 /* Frameworks */,
+				FEA9EC7D2B8DF7FF00048302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA9EC812B8DF7FF00048302 /* PBXTargetDependency */,
+			);
+			name = woocommerceSwiftUIUITests;
+			productName = woocommerceSwiftUIUITests;
+			productReference = FEA9EC7F2B8DF7FF00048302 /* woocommerceSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA9EC582B8DF7FE00048302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FEA9EC5F2B8DF7FE00048302 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FEA9EC742B8DF7FF00048302 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FEA9EC5F2B8DF7FE00048302;
+					};
+					FEA9EC7E2B8DF7FF00048302 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FEA9EC5F2B8DF7FE00048302;
+					};
+				};
+			};
+			buildConfigurationList = FEA9EC5B2B8DF7FE00048302 /* Build configuration list for PBXProject "woocommerceSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEA9EC572B8DF7FE00048302;
+			productRefGroup = FEA9EC612B8DF7FE00048302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA9EC5F2B8DF7FE00048302 /* woocommerceSwiftUI */,
+				FEA9EC742B8DF7FF00048302 /* woocommerceSwiftUITests */,
+				FEA9EC7E2B8DF7FF00048302 /* woocommerceSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEA9EC5E2B8DF7FE00048302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA9ECB32B8E0BDA00048302 /* Services.plist in Resources */,
+				FEA9ECAA2B8E093B00048302 /* Staging.xcconfig in Resources */,
+				FEA9ECAB2B8E093D00048302 /* Production.xcconfig in Resources */,
+				FEA9ECA72B8E079F00048302 /* Development.xcconfig in Resources */,
+				FEA9EC6B2B8DF7FF00048302 /* Preview Assets.xcassets in Resources */,
+				FEA9EC682B8DF7FF00048302 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA9EC732B8DF7FF00048302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA9EC7D2B8DF7FF00048302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA9EC5C2B8DF7FE00048302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA9EC9A2B8DFB7900048302 /* LoginClient.swift in Sources */,
+				FEA9ECB52B8E0C4400048302 /* Environment.swift in Sources */,
+				FEA9EC982B8DFA6300048302 /* RequestError.swift in Sources */,
+				FEA9EC6D2B8DF7FF00048302 /* Persistence.swift in Sources */,
+				FEA9EC662B8DF7FE00048302 /* ContentView.swift in Sources */,
+				FEA9EC942B8DF8C900048302 /* Router.swift in Sources */,
+				FEA9EC702B8DF7FF00048302 /* woocommerceSwiftUI.xcdatamodeld in Sources */,
+				FEA9ECA42B8DFE9900048302 /* LoginRepository.swift in Sources */,
+				FEA9EC642B8DF7FE00048302 /* woocommerceSwiftUIApp.swift in Sources */,
+				FEA9EC962B8DF9A400048302 /* APIClient.swift in Sources */,
+				FEA9EC9D2B8DFD2300048302 /* Repository.swift in Sources */,
+				FEA9ECA22B8DFDD300048302 /* UserModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA9EC712B8DF7FF00048302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA9EC7A2B8DF7FF00048302 /* woocommerceSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA9EC7B2B8DF7FF00048302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA9EC842B8DF7FF00048302 /* woocommerceSwiftUIUITests.swift in Sources */,
+				FEA9EC862B8DF7FF00048302 /* woocommerceSwiftUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEA9EC772B8DF7FF00048302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA9EC5F2B8DF7FE00048302 /* woocommerceSwiftUI */;
+			targetProxy = FEA9EC762B8DF7FF00048302 /* PBXContainerItemProxy */;
+		};
+		FEA9EC812B8DF7FF00048302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA9EC5F2B8DF7FE00048302 /* woocommerceSwiftUI */;
+			targetProxy = FEA9EC802B8DF7FF00048302 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FEA9EC872B8DF7FF00048302 /* Develop */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA9ECA62B8E079F00048302 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Develop;
+		};
+		FEA9EC882B8DF7FF00048302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA9ECA82B8E07F700048302 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEA9EC8A2B8DF7FF00048302 /* Develop */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA9ECA62B8E079F00048302 /* Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"woocommerceSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Digybite.task.com.woocommerceSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Develop;
+		};
+		FEA9EC8B2B8DF7FF00048302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA9ECA82B8E07F700048302 /* Production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"woocommerceSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Digybite.task.com.woocommerceSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEA9EC8D2B8DF7FF00048302 /* Develop */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA9ECA62B8E079F00048302 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Digybite.task.com.woocommerceSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woocommerceSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/woocommerceSwiftUI";
+			};
+			name = Develop;
+		};
+		FEA9EC8E2B8DF7FF00048302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA9ECA82B8E07F700048302 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Digybite.task.com.woocommerceSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woocommerceSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/woocommerceSwiftUI";
+			};
+			name = Release;
+		};
+		FEA9EC902B8DF7FF00048302 /* Develop */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Digybite.task.com.woocommerceSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = woocommerceSwiftUI;
+			};
+			name = Develop;
+		};
+		FEA9EC912B8DF7FF00048302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA9ECA82B8E07F700048302 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Digybite.task.com.woocommerceSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = woocommerceSwiftUI;
+			};
+			name = Release;
+		};
+		FEA9ECAC2B8E097200048302 /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA9ECA92B8E093600048302 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Stage;
+		};
+		FEA9ECAD2B8E097200048302 /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA9ECA92B8E093600048302 /* Staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"woocommerceSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Digybite.task.com.woocommerceSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Stage;
+		};
+		FEA9ECAE2B8E097200048302 /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA9ECA92B8E093600048302 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Digybite.task.com.woocommerceSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woocommerceSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/woocommerceSwiftUI";
+			};
+			name = Stage;
+		};
+		FEA9ECAF2B8E097200048302 /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA9ECA92B8E093600048302 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Digybite.task.com.woocommerceSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = woocommerceSwiftUI;
+			};
+			name = Stage;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA9EC5B2B8DF7FE00048302 /* Build configuration list for PBXProject "woocommerceSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA9EC872B8DF7FF00048302 /* Develop */,
+				FEA9ECAC2B8E097200048302 /* Stage */,
+				FEA9EC882B8DF7FF00048302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA9EC892B8DF7FF00048302 /* Build configuration list for PBXNativeTarget "woocommerceSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA9EC8A2B8DF7FF00048302 /* Develop */,
+				FEA9ECAD2B8E097200048302 /* Stage */,
+				FEA9EC8B2B8DF7FF00048302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA9EC8C2B8DF7FF00048302 /* Build configuration list for PBXNativeTarget "woocommerceSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA9EC8D2B8DF7FF00048302 /* Develop */,
+				FEA9ECAE2B8E097200048302 /* Stage */,
+				FEA9EC8E2B8DF7FF00048302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA9EC8F2B8DF7FF00048302 /* Build configuration list for PBXNativeTarget "woocommerceSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA9EC902B8DF7FF00048302 /* Develop */,
+				FEA9ECAF2B8E097200048302 /* Stage */,
+				FEA9EC912B8DF7FF00048302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEA9EC6E2B8DF7FF00048302 /* woocommerceSwiftUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEA9EC6F2B8DF7FF00048302 /* woocommerceSwiftUI.xcdatamodel */,
+			);
+			currentVersion = FEA9EC6F2B8DF7FF00048302 /* woocommerceSwiftUI.xcdatamodel */;
+			path = woocommerceSwiftUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEA9EC582B8DF7FE00048302 /* Project object */;
+}

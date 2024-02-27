@@ -1,0 +1,17 @@
+//
+//  Development.xcconfig
+//  woocommerceSwiftUI
+//
+//  Created by Adel Aref on 27/02/2024.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+Base_URL = gateway.marvel.com:443/v1/public
+Scheme = https
+
+// App Settings
+APP_NAME = woocommerceSwiftUI (dev)
+APP_BUNDLE_ID = com.mdi.woocommerceSwiftUI.dev
+
